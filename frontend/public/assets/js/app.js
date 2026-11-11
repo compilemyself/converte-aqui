@@ -1,0 +1,1 @@
+// Comportamentos do cliente web serão adicionados conforme a integração com a API.

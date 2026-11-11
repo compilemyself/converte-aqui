@@ -1,0 +1,28 @@
+# Arquivo .env e segredos
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Arquivos de usuário
+storage/originals/*
+!storage/originals/.gitkeep
+storage/converted/*
+!storage/converted/.gitkeep
+
+# Editores e sistemas operacionais
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+frontend/vendor/
